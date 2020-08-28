@@ -1,0 +1,29 @@
+{
+  "name": "storybook-html",
+  "version": "1.0.0",
+  "description": "Test Storybook HTML - specifically docs, controls/knobs and a11y plugins",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basher/storybook-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/basher/storybook-html#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@storybook/addon-actions": "^6.0.20",
+    "@storybook/addon-essentials": "^6.0.20",
+    "@storybook/addon-links": "^6.0.20",
+    "@storybook/html": "^6.0.20",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1"
+  },
+  "dependencies": {}
+}

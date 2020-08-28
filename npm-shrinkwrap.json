@@ -1641,6 +1641,30 @@
         "react-lifecycles-compat": "^3.0.4"
       }
     },
+    "@storybook/addon-a11y": {
+      "version": "6.0.20",
+      "resolved": "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-6.0.20.tgz",
+      "integrity": "sha512-/uo6h4SPVfGzjMThQ2VWgK1mYLCcmpwzwFo0dj2PWcV5hEHHTLTkXxzckLhUC8eb5zDDSUK4XBBo7QGTdUyplw==",
+      "dev": true,
+      "requires": {
+        "@storybook/addons": "6.0.20",
+        "@storybook/api": "6.0.20",
+        "@storybook/channels": "6.0.20",
+        "@storybook/client-api": "6.0.20",
+        "@storybook/client-logger": "6.0.20",
+        "@storybook/components": "6.0.20",
+        "@storybook/core-events": "6.0.20",
+        "@storybook/theming": "6.0.20",
+        "axe-core": "^3.5.2",
+        "core-js": "^3.0.1",
+        "global": "^4.3.2",
+        "lodash": "^4.17.15",
+        "react-sizeme": "^2.5.2",
+        "regenerator-runtime": "^0.13.3",
+        "ts-dedent": "^1.1.1",
+        "util-deprecate": "^1.0.2"
+      }
+    },
     "@storybook/addon-actions": {
       "version": "6.0.20",
       "resolved": "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-6.0.20.tgz",
@@ -3285,6 +3309,12 @@
         "postcss": "^7.0.32",
         "postcss-value-parser": "^4.1.0"
       }
+    },
+    "axe-core": {
+      "version": "3.5.5",
+      "resolved": "https://registry.npmjs.org/axe-core/-/axe-core-3.5.5.tgz",
+      "integrity": "sha512-5P0QZ6J5xGikH780pghEdbEKijCTrruK9KxtPZCFWUpef0f6GipO+xEZ5GKCb020mmqgbiNO6TcA55CriL784Q==",
+      "dev": true
     },
     "babel-code-frame": {
       "version": "6.26.0",

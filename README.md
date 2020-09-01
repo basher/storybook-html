@@ -1,4 +1,5 @@
 # storybook-html
 
-- Test Storybook HTML - specifically docs, controls and a11y plugins.
-- Test linking to external static UI resources bundled by Parcel in a separate **private** repo - e.g. [localhost:1234/index.css](http://localhost:1234/index.css).
+This repo tests:
+- `@storybook/html` - specifically docs, controls and a11y addons.
+- Linking to external static UI resources in `.storybook\preview-head.html`, which are bundled by Parcel by running `npm start` in this [separate repo](https://github.com/basher/parcel-boilerplate-storybook).

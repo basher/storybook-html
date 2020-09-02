@@ -12,5 +12,5 @@
 
 ## Accessing external static UI resources
 
-- `.storybook\preview-head.html` contains a `<link>` statement to an external CSS file which has been bundled by Parcel in [this external repo](https://github.com/basher/parcel-boilerplate-storybook).
+- The `.storybook\preview-head.html` in this repo contains a `<link>` statement to an **external CSS file** which has been bundled by Parcel in [this external repo](https://github.com/basher/parcel-boilerplate-storybook).
 - `npm start` to start the server in the external repo.

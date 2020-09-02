@@ -1,7 +1,13 @@
 import { action } from '@storybook/addon-actions';
+import docs from './Button.mdx';
 
 export default {
   title: 'UI Components/Buttons',
+  parameters: {
+    docs: {
+      page: docs,
+    }
+  },
   argTypes: {
     children: { control: 'text' },
     buttonType: { control: {

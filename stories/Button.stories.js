@@ -33,7 +33,6 @@ const Template = (args) => {
   if (args.buttonType) {
     if (args.buttonType !== 'default') {
       btn.classList.add(`button--${args.buttonType.toLowerCase()}`);
-      btn.innerText = `${args.buttonType} button`;
     }
   }
   if (args.buttonSize && args.buttonSize.length > 0) {

@@ -5,10 +5,9 @@
 
 ## Useful Storybook documentation
 
-- [recipes](https://github.com/storybookjs/storybook/blob/next/addons/docs/docs/recipes.md).
-- [doc-blocks](https://storybook.js.org/docs/react/writing-docs/doc-blocks).
-- [MDX](https://storybook.js.org/docs/react/writing-docs/mdx).
-- [args](https://storybook.js.org/docs/react/writing-stories/args).
+- [Recipes](https://github.com/storybookjs/storybook/blob/next/addons/docs/docs/recipes.md).
+- [Stories](https://storybook.js.org/docs/react/writing-stories/introduction).
+- [Docs](https://storybook.js.org/docs/react/writing-docs/introduction).
 
 ## Accessing external static UI resources
 

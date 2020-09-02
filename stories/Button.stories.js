@@ -8,7 +8,7 @@ export default {
     }
   },
   argTypes: {
-    children: { control: 'text' },
+    label: { control: 'text' },
     buttonType: { control: {
       type: 'select',
       options: ['primary', 'secondary'],
@@ -28,7 +28,7 @@ const Template = (args) => {
       class="button button--text button--${args.buttonType} button--${args.buttonSize}"
       ${args.disabled === true ? 'disabled' : ''}
     >
-      ${args.children}
+      ${args.label}
     </button>
   `;
   return btn;
@@ -36,5 +36,5 @@ const Template = (args) => {
 
 export const TextButton = Template.bind({});
 TextButton.args = {
-  children: 'Text button',
+  label: 'Text button',
 };

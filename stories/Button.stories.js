@@ -3,6 +3,7 @@ import docs from './Button.mdx';
 
 export default {
   title: 'UI Components/Buttons',
+  component: TextButton,
   parameters: {
     docs: {
       page: docs,

@@ -3,10 +3,12 @@
 - This repo tests that specific addons work OK for HTML stories - i.e. `docs`, `controls` and `a11y`.
 - `npm run storybook`.
 
-## Useful addon-docs links
+## Useful Storybook documentation
 
 - [recipes](https://github.com/storybookjs/storybook/blob/next/addons/docs/docs/recipes.md).
 - [doc-blocks](https://storybook.js.org/docs/react/writing-docs/doc-blocks).
+- [MDX](https://storybook.js.org/docs/react/writing-docs/mdx).
+- [args](https://storybook.js.org/docs/react/writing-stories/args).
 
 ## Accessing external static UI resources
 

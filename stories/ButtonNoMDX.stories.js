@@ -1,13 +1,7 @@
 import { action } from '@storybook/addon-actions';
-import docs from './Button.mdx';
 
 export default {
-  title: 'UI Components/Buttons/Text',
-  parameters: {
-    docs: {
-      page: docs,
-    }
-  },
+  title: 'UI Components/Buttons/Text no MDX',
   argTypes: {
     children: { control: 'text' },
     buttonType: { control: {
@@ -40,7 +34,7 @@ const Template = (args) => {
   return btn;
 };
 
-export const TextButton = Template.bind({});
-TextButton.args = {
+export const TextButtonNoMDX = Template.bind({});
+TextButtonNoMDX.args = {
   children: 'Text button',
 };

@@ -21,18 +21,15 @@ export default {
   },
 };
 
-const Template = (args) => {
-  const btn = `
-    <button
-      type="button"
-      class="button button--text button--${args.buttonType} button--${args.buttonSize}"
-      ${args.disabled === true ? 'disabled' : ''}
-    >
-      ${args.label}
-    </button>
-  `;
-  return btn;
-};
+const Template = (args) => `
+  <button
+    type="button"
+    class="button button--text button--${args.buttonType} button--${args.buttonSize}"
+    ${args.disabled === true ? 'disabled' : ''}
+  >
+    ${args.label}
+  </button>
+`;
 
 export const TextButton = Template.bind({});
 TextButton.args = {

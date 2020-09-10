@@ -4,7 +4,7 @@ export default {
   title: 'Test/Fetch Data',
 };
 
-const Template = () => `
+export const FetchData = () => `
   <h2>Fetch JSON data and build story HTML from it?</h2>
   ${
     fetchData().then(data => {
@@ -14,5 +14,3 @@ const Template = () => `
     })
   }
 `;
-
-export const FetchData = Template.bind({});

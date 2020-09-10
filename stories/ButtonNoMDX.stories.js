@@ -14,7 +14,7 @@ export default {
   },
 };
 
-const Template = (args) => `
+export const TextButtonNoMDX = (args) => `
   <button
     type="button"
     class="button button--text button--${args.buttonType} button--${args.buttonSize}"
@@ -23,8 +23,6 @@ const Template = (args) => `
     ${args.label}
   </button>
 `;
-
-export const TextButtonNoMDX = Template.bind({});
 TextButtonNoMDX.args = {
   label: 'Text button',
 };
